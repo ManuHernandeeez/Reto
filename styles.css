@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    background-color: rgb(196, 196, 196);
-
 }
 
-.banner{
+body {
+    color: #3e2c23;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
     height: 100vh;
     background-image: url('imagenes/banner.jpg');
     background-size: cover;
@@ -17,11 +19,85 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding-top: 80px; 
 }
 
-h1{
-    font-size: 3rem;
-vertical-align: top;   
-text-align:  ;
- margin-bottom: 1rem;
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+
+
+.contenedor{
+
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.nuestro-blog{
+    width: 70%;
+}
+
+.cursos{
+
+    width: 30%;
+    padding: 1rem;
+ 
+}
+.deliciosas{
+
+    padding: 2rem;
+width: 70%;}
+
+.btn-1{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    padding: 2rem;
+    text-align:left;
 }
